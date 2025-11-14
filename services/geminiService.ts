@@ -1,9 +1,9 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { BusinessInfo, IdeaGenerationInfo, MarketingIdea, MonthlyPlan, Scene, ContentStrategy, ScriptGenerationInfo, ContentPlanInfo } from '../types';
 
-if (!process.env.API_KEY) {
-  throw new Error("API_KEY environment variable not set");
-}
+//if (!process.env.API_KEY) {
+//  throw new Error("API_KEY environment variable not set");
+//}
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
