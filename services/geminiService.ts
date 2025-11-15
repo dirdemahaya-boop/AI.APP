@@ -5,7 +5,7 @@ import { BusinessInfo, IdeaGenerationInfo, MarketingIdea, MonthlyPlan, Scene, Co
 //  throw new Error("API_KEY environment variable not set");
 //}
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+**`const ai = new GoogleGenAI({ apiKey: process.env.API_KEY
 
 const generationConfig = {
   temperature: 0.7,
